@@ -83,4 +83,17 @@ h2{
         float: left;
         width: 50%;
      }
-
+@media (max-width: 700px) {
+    .city {
+        text-align:justify;
+        display: flex;
+        flex: 3;
+        margin-top: 60px;
+        padding-left: 2em;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .p-tag{
+        flex-wrap: column;
+    }
+}
