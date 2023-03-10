@@ -1,7 +1,86 @@
-.intro{
-    color: blue;
+body {
+    margin: 1.5em;
+    background-color: peachpuff;
+    font-family: 'Courier New', Courier, monospace;
 }
-.tshwane{ 
-    max-width: 50%;
-    height: auto;
+
+.intro {
+    text-align: center;
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-left: 2em;
 }
+#intro{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+border-radius: 5px;
+}
+h1 {
+    display: flex;
+    display: inline;
+    text-align: center;
+   margin-top: 4em;
+}
+
+.h2{
+    margin-left: 100px;
+    margin-top: 2em;
+}
+
+.city {
+    text-align:justify;
+    display: flex;
+    flex: 3;
+    margin-top: 60px;
+    padding-left: 2em;
+    justify-content: center;
+}
+
+.tshwane {
+    float: left;
+    width: 25em;
+    justify-content: space-around;
+     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+border-radius: 5px;
+margin-right: 1em;
+    }
+    table, td, th {
+        border: 1px solid black;
+        padding: 0.5em;
+        margin-left: 7em;
+      }
+      table {
+        border-collapse: collapse;
+        width: 60%;
+      }
+.language {
+    margin-left: 100px;
+    margin-top: 2em;
+}
+h2{
+    
+        margin-left: 100px;
+        margin-top: 2em;
+    
+}
+.one{
+    width: 33.33%;
+    float: left;
+}
+.two {
+    width: 33.33%;
+    float: left;
+}
+.three {
+    width: 33.33%;
+    float: left;
+} 
+
+    .p-tag{
+        text-align: center ;
+        padding: 0px 20px 20px 0px;
+        float: left;
+        width: 50%;
+     }
+
