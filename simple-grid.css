@@ -9,16 +9,23 @@
 
 html,
 body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+  display: block;
+  height: 95%;
+  width: 95%;
+  margin-left:1em;
   padding: 0;
   left: 0;
   top: 0;
   font-size: 100%;
   background-color: peachpuff;
 }
-
+.row{
+  margin-bottom: 1em;
+}
+.one{
+  display: flex;
+  float: right;
+}
 
 /* image  */
 
@@ -28,6 +35,23 @@ border-color: crimson;
 box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
 }
+
+/* table css */
+
+ table, td, th {
+        border: 1px solid black;
+        margin-left: 1em;
+      
+      }
+      table {
+        border: 1px;
+        border-collapse: collapse;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       
+      }
+
 /* ROOT FONT STYLES */
 
 * {
@@ -192,10 +216,15 @@ p {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+@media only screen and (max-width: 33.75em) {  /* 540px */
   .container {
     width: 80%;
   }
+  .one {
+    flex-direction: column;
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
@@ -249,7 +278,7 @@ p {
 
   .hidden-sm {
     display: block;
-  }
+  }   
 }
 
 @media only screen and (min-width: 60em) { /* 960px */
