@@ -6,10 +6,11 @@ body {
 }
 
 .intro {
-    text-align: center;
+
     display: flex;
+    width: 80%;
     flex: 3;
-    justify-content: space-around;
+    place-content: center;
     margin-top: 60px;
     padding-left: 2em;
 }
@@ -19,9 +20,9 @@ body {
 border-radius: 5px;
 }
 h1 {
+    padding-right: 3em;
     display: flex;
-    display: inline;
-    text-align: center;
+   
    margin-top: 4em;
 }
 
@@ -93,6 +94,9 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
 flex: 3; 
+ }
+ .two {
+    flex-direction: column-reverse;
  }
 }
 .ptag{
