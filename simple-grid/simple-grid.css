@@ -12,45 +12,54 @@ body {
   display: block;
   height: 95%;
   width: 95%;
-  margin-left:1em;
+  margin-left: 0.6em;
   padding: 0;
   left: 0;
   top: 0;
   font-size: 100%;
   background-color: peachpuff;
 }
-.row{
+
+.row {
   margin-bottom: 1em;
 }
-.one{
+
+.one {
   display: flex;
   float: right;
 }
 
+/* city hall */
+
+.cityhall img{
+  float: left;
+  
+}
+
 /* image  */
 
-img{
-border-radius: 0.4em;
-border-color: crimson;
-box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+img {
+  border-radius: 0.4em;
+  border-color: crimson;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
 }
 
 /* table css */
 
- table, td, th {
-        border: 1px solid black;
-        margin-left: 1em;
-      
-      }
-      table {
-        border: 1px;
-        border-collapse: collapse;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-       
-      }
+table,
+td,
+th {
+  border: 1px solid black;
+  margin-left: 1em;
+}
+
+table {
+  border: 1px;
+  border-collapse: collapse;
+  width: 100%;
+
+}
 
 /* ROOT FONT STYLES */
 
@@ -159,7 +168,7 @@ p {
 .col-10,
 .col-11,
 .col-12 {
-  width: 96%;
+  width: 95%;
 }
 
 .col-1-sm {
@@ -211,27 +220,51 @@ p {
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hidden-sm {
   display: none;
 }
 
-@media only screen and (max-width: 33.75em) {  /* 540px */
+@media only screen and (max-width: 33.75em) {
+
+table,
+td,
+th {
+  border: 1px solid black;
+  margin-left: 1em;
+}
+
+table {
+  border: 1px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+  /* 540px */
   .container {
     width: 80%;
+    margin-left: 0.2em;
   }
+
   .one {
     flex-direction: column;
-    text-align: left;
+
+  }
+
+  h1 {
+    text-align: center;
   }
 
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 45em) {
+
+  /* 720px */
   .col-1 {
     width: 4.33%;
   }
@@ -282,10 +315,12 @@ p {
 
   .hidden-sm {
     display: block;
-  }   
+  }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 60em) {
+
+  /* 960px */
   .container {
     width: 75%;
     max-width: 60rem;

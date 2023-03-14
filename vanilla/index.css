@@ -1,8 +1,7 @@
 body {
 
     background-color: peachpuff;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro {
@@ -15,24 +14,25 @@ body {
     padding-left: 2em;
 }
 
-#intro{
+#intro {
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-border-radius: 5px;
+    border-radius: 5px;
 }
+
 h1 {
     padding-right: 3em;
     display: flex;
-   
-   margin-top: 4em;
+
+    margin-top: 4em;
 }
 
-.h2{
+.h2 {
     margin-top: 2em;
 
 }
 
 .city {
-    text-align:left;
+    text-align: left;
     display: flex;
     flex: 3;
     justify-content: left;
@@ -42,122 +42,139 @@ h1 {
     float: left;
     width: 25em;
     justify-content: space-around;
-     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-border-radius: 5px;
-    }
-    table, td, th {
-        border: 1px solid black;
-        padding: 0.5em;
-        margin-left: 7em;
-      }
-      table {
-        border-collapse: collapse;
-        width: 60%;
-      }
-.language {
-         margin-top: 2em;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
 }
-h2{
-    
+
+table,
+td,
+th {
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-left: 7em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.language {
     margin-top: 2em;
-    
+}
+
+h2 {
+
+    margin-top: 2em;
+
 }
 
 .clearfix {
     overflow: auto;
     zoom: 1;
 }
-.one{
-    width: 33.33%;
-    float: left;
-}
-.two {
-    width: 33.33%;
-    float: left;
-}
-.three {
-    width: 33.33%;
-    float: left;
-} 
-@media screen and (max-width: 480px){
 
 .plek {
     display: flex;
 }
-/* .places {
+
+img {
+    float: left;
+    margin-right: 1em;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .intro img {
+        width: 400;
+    }
+
+    .intro {
+
+        place-items: center;
+    }
+
+    .plek {
+        display: flex;
+    }
+
+    /* .places {
     display: flexbox;
     flex-direction: column;
     flex-wrap: wrap;
 } */
-.left {
-    float: left;
-    flex-direction: column;
-    flex-wrap: wrap;
-flex: 3; 
- }
- .two {
-    flex-direction: column-reverse;
- }
+    .left {
+        float: left;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex: 3;
+    }
+
+    .two {
+        flex-direction: column-reverse;
+    }
 }
-.ptag{
+
+.ptag {
     width: 96%;
 }
-   .p-tag{
-        text-align: center ;
-        padding: 0px 20px 20px 0px;
-        float: left;
-        width: 60%;
-     }
-@media (max-width: 700px) {
+
+.p-tag {
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    float: left;
+    width: 60%;
+}
+
+@media (max-width: 540px) {
     .intro {
         display: flex;
         flex-direction: column;
-place-items: center;
- }
+        place-items: center;
+    }
+
+    .two {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .city {
-        text-align:justify;
+        text-align: justify;
         display: flex;
         flex: 3;
-      
+
         justify-content: center;
         flex-wrap: wrap;
     }
-    .p-tag{
+
+    .p-tag {
         flex-wrap: column;
 
     }
 
-    .h2{
-    text-align: center;
+    .h2 {
+        text-align: center;
     }
 
     .plek {
-    display: flex;
-    flex-direction: column;
-}
+        display: flex;
+        flex-direction: column;
+    }
 
-    .places {
-    display: flexbox;
-    flex-direction: column;
-    flex-wrap: wrap;
 
-}
-.one{
-    width:80%;
-    float: left;
-}
-.two {
-    width:80%;
-    float: left;
-}
-.three {
-    width:80%;
-    float: left;
-}
-.russian{
-   flex-direction: column;
-    text-align: justify;
-    
-}
+    .russian {
+        flex-direction: column;
+        text-align: justify;
 
+    }
+
+
+    img {
+        float: left;
+    }
+
+    .two {
+        flex-direction: row-reverse;
+    }
 }
