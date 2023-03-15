@@ -231,6 +231,19 @@ p {
 
 @media only screen and (max-width: 33.75em) {
 
+  .cityhall {
+    display: flex;
+  }
+  .iziko {
+    display: flex;
+  }
+  .castle {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+
+
 table,
 td,
 th {
@@ -262,7 +275,7 @@ table {
 
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 44em) {
 
   /* 720px */
   .col-1 {

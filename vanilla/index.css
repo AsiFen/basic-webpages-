@@ -86,9 +86,9 @@ img {
 
 
 @media screen and (max-width: 480px) {
-    .intro img {
-        width: 400;
-    }
+.intro img {
+    width: 400;
+}
 
     .intro {
 
@@ -133,7 +133,7 @@ img {
         flex-direction: column;
         place-items: center;
     }
-
+    
     .two {
         display: flex;
         flex-direction: row-reverse;
@@ -169,12 +169,17 @@ img {
 
     }
 
-
+    
     img {
         float: left;
     }
-
-    .two {
-        flex-direction: row-reverse;
-    }
+    
+  .two {
+    flex-direction: row-reverse;
+  }
+   h1{
+    text-align: center;
+    margin-left: 0.9em;
+   }
 }
+
