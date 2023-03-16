@@ -229,7 +229,7 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 33.75em) {
+@media only screen and (max-width: 44em) {
 
   .cityhall {
     display: flex;
@@ -275,7 +275,7 @@ table {
 
 }
 
-@media only screen and (min-width: 44em) {
+@media only screen and (min-width: 44.01em) {
 
   /* 720px */
   .col-1 {

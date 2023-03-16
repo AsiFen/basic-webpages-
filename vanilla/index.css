@@ -127,6 +127,23 @@ img {
     width: 60%;
 }
 
+@media (max-width: 630px) {
+    .city {
+        text-align: justify;
+        display: flex;
+        flex: 3;
+
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .p-tag {
+        flex-wrap: column;
+
+    }
+
+}
+
 @media (max-width: 540px) {
     .intro {
         display: flex;
